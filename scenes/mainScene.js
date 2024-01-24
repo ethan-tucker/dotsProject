@@ -350,6 +350,6 @@ export default class MainScene extends Phaser.Scene {
         pointerBody.setCircle(Constants.CELL_SIZE / 6);
         this.pointerBody = pointerBody;
 
-        this.startGame();
+        this.menuManager.createMenu(`Connect Dots`, `Score Points`, "Start Game!");
     }
 }

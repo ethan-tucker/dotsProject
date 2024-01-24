@@ -1,4 +1,4 @@
-export const GRID_WIDTH = 3;
+export const GRID_WIDTH = 6;
 export const GRID_HEIGHT = 8;
 export const CELL_SIZE = 32;
 export const VIEW_PADDING_X = 40;
@@ -6,8 +6,8 @@ export const VIEW_PADDING_Y = 60;
 export const GAME_WIDTH = GRID_WIDTH * CELL_SIZE + 2 * VIEW_PADDING_X;
 export const GAME_HEIGHT = GRID_HEIGHT * CELL_SIZE + 2 * VIEW_PADDING_Y;
 export const COLOR_OPTIONS = [0xfecd6c, 0x77c298, 0x718dbf, 0xa4547d, 0xe84d60, 0x574141, 0xBFA5A5, 0xFFC4FF];
-export const CIRCLE_COLORS = 2;
+export const CIRCLE_COLORS = 5;
 export const BONUS_CHAIN_LENGTH = 10;
 export const ADJACENT_CIRCLE_OFFSETS_LEFT_LEANING = [[-1, -1], [0, -1], [0, 1], [-1, 0], [-1, 1], [1, 0]];
 export const ADJACENT_CIRCLE_OFFSETS_RIGHT_LEANING = [[0, -1], [0, 1], [-1, 0], [1, -1], [1, 0], [1, 1]];
-export const GAME_LENGTH = 6000;
+export const GAME_LENGTH = 30000;
